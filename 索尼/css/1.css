@@ -1,0 +1,180 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-03 18:51:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-06 15:11:28
+*/
+*,tr,td,img{
+			margin: 0;
+			padding: 0;
+		}
+		* a:hover{
+			border: 1px dashed #0f4bf7; 
+		}
+		.header{
+			
+			width: 100%;
+			background-color:black;
+		}
+		.header .con{
+			height: 105px;
+			width: 1000px;
+			margin: 0 auto;
+			position:relative;
+		}
+		.header .con select{
+			width: 120px;
+			height: 40px;
+			outline-style: none;
+			border:none;
+			background-color: black;
+			color: white;
+			font-size: 16px;
+		}
+		.header .con select:hover{
+			background-color: #5b5d5f;
+		}
+		.header .con ul{
+			list-style:none;
+			position: absolute;
+		}
+
+		.header .con ul li{
+			float: left;
+		}
+		.header .con ul li a{
+			line-height: 40px;
+			text-decoration: none;
+			color: white;
+			
+		}
+		.header .con .ul1 a{
+			padding-right: 40px;
+		}
+		a:hover{
+			display: inline-block;
+			background-color: #5b5d5f;
+		}
+		.header .con .ul1{
+			left: 120px;
+			bottom: 0;
+		}
+		.header .con .ul2{
+			right: 0;
+			top: 0;
+			font-size: 12px;
+		}
+		.header .con .ul2 a{
+			padding-left: 20px;
+		}
+		.header .con input{
+			display: inline-block;
+			width: 196px;
+			height: 36px;
+			outline-style: none;
+			border: 2px solid #424242;
+			background: black url(../images/索尼中国_10.png) right no-repeat;
+			position: absolute;
+			right: 0;
+			bottom: 7px;
+		}
+		.ad1{
+			height: 350px;
+			width: 1000px;
+			margin: 0 auto;
+			margin-bottom:55px;
+		}
+		.ad1 p{
+			width: 232px;
+			height: 100px;
+			background-color: #eff0f1;
+		}
+		.bigbox{
+			width: 1200px;
+			height: 590px;
+			background-color:#eff0f1;
+			margin: 0 auto;
+		}
+		.bigbox .content,.content table{
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.bigbox .content table p{
+			display: inline-block;
+			height: 85px;
+			vertical-align: bottom;
+			color: #595959;
+		}
+		.bigbox .content table p span{
+			display: inline-block;
+			background-color: #d0d1d3;
+			color: white;
+		}
+		.ad2{
+			width: 1000px;
+			height: 160px;
+			margin: 0 auto;
+			margin-top:30px;
+			margin-bottom:40px;
+		}
+		.footer{
+			/* height: 400px; */
+			width: 100%;
+			background-color:#1f2024;
+		}
+		.footer .top{
+			height: 270px;
+			border-bottom:1px solid #333438;
+		}
+		.footer .top table{
+			width: 1000px;
+			margin: 0 auto;
+			color: white;
+		}
+		.footer .bottom{
+			height: 120px;
+			width: 1000px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.footer .bottom .span1{
+			display: inline-block;
+			position: absolute;
+			top:13px;
+			/* vertical-align: bottom; */
+			color: #999;
+		}
+		.footer .bottom ul:first-of-type{
+			margin-top: 16px;
+		}
+		.footer .bottom ul:first-of-type li{
+			list-style: none;
+			float: left;
+
+		}
+		.footer .bottom ul:first-of-type a{
+			display: inline-block;
+			padding-right: 20px;
+			text-decoration: none;
+			color: white;
+			line-height: 20px;
+			/* font-size: 12px; */
+		}
+		.footer .bottom .span2{
+			display: inline-block;
+			position: absolute;
+			bottom: 34px;
+			color: #999;
+
+		}
+		.footer .bottom .span2 a{
+			color: #999;
+		}
+		.footer .bottom ul:last-of-type{
+			position: absolute;
+			right: 0;
+			list-style: none;
+		}
+		.footer .bottom ul:last-of-type li{
+			float: left;
+		}
